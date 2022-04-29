@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="container_text">
+            <h3>Learn to code by watching others</h3>
+        
+            <p>see how experienced developers solve problems in real-time.</p>
+            <p>Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        </div>
+
+        <form action="#" onsubmit=" validation()" name="myform" class="form_page" >
+
+            <label for="sign up" class="form_header"><b>Try it for 7 days</b> then $20/mo. thereafter</label>
+
+            <div class="form_container">
+
+                <input type="text" placeholder="First Name" id="firstname" autocomplete="on" autocapitalize="characters"> 
+                <span id="fname" class="display"></span> 
+
+                <img src="./images/icon-error.svg" alt="erroricon" class="error_icon">
+                
+                <input type="text" placeholder="Last Name" id="lastname" >
+                <span id="lname" class="display"></span>
+
+                <img src="./images/icon-error.svg" alt="erroricon" class="error_icon1">
+
+                <input type="text" placeholder="Email Address" id="email" autocapitalize="none" >
+                <span id="eaddress" class="display"></span>
+
+                <img src="./images/icon-error.svg" alt="erroricon" class="error_icon2">
+
+                <input type="password" placeholder="Password" id="password">
+                <span id="pword" class="display"></span>
+
+                <img src="./images/icon-error.svg" alt="erroricon" class="error_icon3">
+
+                <button type="submit">CLAIM YOUR FREE TRIAL</button>
+
+                <P class="text">By clicking the button, you are agreeing to our <span>Terms and Services</span></P>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
